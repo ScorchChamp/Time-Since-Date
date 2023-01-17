@@ -1,3 +1,4 @@
+window.addEventListener("load", function () {
 const input = document.getElementById('date-input');
 const output = document.getElementById('output');
 
@@ -29,3 +30,4 @@ setInterval(() => {
     <p><b>Seconds ago:</b> ${secondsAgo}</p>
   `;
 }, 1000);
+});
